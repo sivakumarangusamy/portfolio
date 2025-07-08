@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../statics/key_holders.dart';
 import '../statics/data_values.dart';
 import '../theme/app_theme.dart';
-import '../widgets/button_text.dart';
 import '../widgets/text_pairs.dart';
 import '../widgets/container_card.dart';
 import '../widgets/container_banner.dart';
@@ -25,12 +24,6 @@ class DS2AboutMe extends StatelessWidget {
                 TextPairs().type1(
                   title: DataValues.aboutMeBiographyTitle,
                   description: DataValues.aboutMeBiographyDescription,
-                ),
-                const SizedBox(height: 40.0),
-                ButtonTextSmall(
-                  text: 'View Full Biography >>',
-                  message: DataValues.biographyURL.toString(),
-                  url: DataValues.biographyURL,
                 ),
               ],
             ),
@@ -166,17 +159,6 @@ class DS2AboutMe extends StatelessWidget {
             bio(context),
             const SizedBox(height: 40.0),
             titles(context),
-            const SizedBox(height: 80.0),
-            Center(
-              child: ContainerBanner().type1(
-                  isDesktop: true,
-                  title1: DataValues.aboutMeBanner,
-                  title2: DataValues.aboutMeBannerTitle,
-                  description: DataValues.aboutMeBannerWeb,
-                  image: 'logo',
-                  message: 'View Profiles',
-                  url: DataValues.profilesURL),
-            ),
           ],
         ),
       ),

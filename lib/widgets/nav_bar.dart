@@ -72,13 +72,15 @@ class NavBar {
     Widget miniHeader() {
       return Column(
         children: [
-          Image.asset('assets/images/logo.png', height: 80.0, width: 80.0),
+          ClipRRect(
+            borderRadius: BorderRadius.circular(20.0),
+            child: Image.asset('assets/images/logo.jpeg', height: 80.0, width: 80.0)),
           const SizedBox(height: 10.0),
           SelectableText(
             DataValues.headerName,
             style: TextStyle(
               color: AppThemeData.textPrimary,
-              fontSize: AppThemeData.darkTheme.textTheme.titleLarge?.fontSize,
+              fontSize: AppThemeData.darkTheme.textTheme.titleSmall?.fontSize,
               fontWeight: FontWeight.bold,
             ),
           ),

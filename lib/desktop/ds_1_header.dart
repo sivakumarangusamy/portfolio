@@ -10,7 +10,9 @@ class DS1Header extends StatelessWidget {
 
   List<Widget> headerData() {
     return [
-      Image.asset('assets/images/logo.png', height: 250.0, width: 250.0),
+      ClipRRect(
+        borderRadius: BorderRadius.circular(20.0),
+        child: Image.asset('assets/images/logo.jpeg', height: 250.0, width: 250.0)),
       const SizedBox(width: 60.0),
       Column(
         children: [
@@ -20,7 +22,7 @@ class DS1Header extends StatelessWidget {
           ),
           SelectableText(
             DataValues.headerName,
-            style: AppThemeData.darkTheme.textTheme.displayMedium,
+            style: AppThemeData.darkTheme.textTheme.displaySmall,
           ),
           SelectableText(
             DataValues.headerTitle,

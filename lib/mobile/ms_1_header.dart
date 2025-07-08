@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../statics/data_values.dart';
 import '../theme/app_theme.dart';
 import '../widgets/social_profiles.dart';
@@ -9,7 +8,9 @@ class MS1Header extends StatelessWidget {
 
   List<Widget> headerData() {
     return [
-      Image.asset('assets/images/logo.png', height: 250.0, width: 250.0),
+      ClipRRect(
+        borderRadius: BorderRadius.circular(20.0),
+        child: Image.asset('assets/images/logo.jpeg', height: 250.0, width: 250.0)),
       const SizedBox(height: 40.0),
       Column(
         children: [
@@ -19,7 +20,7 @@ class MS1Header extends StatelessWidget {
           ),
           SelectableText(
             DataValues.headerName,
-            style: AppThemeData.darkTheme.textTheme.displayMedium,
+            style: AppThemeData.darkTheme.textTheme.displaySmall,
             textAlign: TextAlign.center,
           ),
           SelectableText(

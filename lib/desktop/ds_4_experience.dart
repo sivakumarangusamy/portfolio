@@ -54,17 +54,6 @@ class DS4Experience extends StatelessWidget {
                 ),
               ],
             ),
-            const SizedBox(height: 80.0),
-            Center(
-              child: ContainerBanner().type1(
-                  isDesktop: true,
-                  title1: DataValues.experienceBanner,
-                  title2: DataValues.experienceBannerTitle,
-                  description: DataValues.experienceBannerWeb,
-                  image: 'logo',
-                  message: 'View Toolkit',
-                  url: DataValues.toolkitURL),
-            ),
           ],
         ),
       ),

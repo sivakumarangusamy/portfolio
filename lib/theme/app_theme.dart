@@ -69,7 +69,7 @@ class AppThemeData {
         color: textWhite,
       ),
       displaySmall: TextStyle(
-          fontSize: 42.0,
+          fontSize: 33.0,
           fontWeight: FontWeight.w700,
           color: AppThemeData.textWhite),
       headlineSmall: TextStyle(
@@ -97,6 +97,6 @@ class AppThemeData {
           fontWeight: FontWeight.w500,
           color: AppThemeData.textWhite),
     ),
-    colorScheme: const ColorScheme.dark().copyWith(background: backgroundBlack),
+    colorScheme: const ColorScheme.dark().copyWith(surface: backgroundBlack),
   );
 }

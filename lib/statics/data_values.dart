@@ -1,37 +1,26 @@
 class DataValues {
   // About App
-  static const String appName = 'Dileepa Bandara';
+  static const String appName = 'Sivakumar Angusamy';
   static const String appNameLong = 'dileepabandara.dev';
   static const String appDescription =
-      'Hello there, I\'m Dileepa Bandara. This is my personal website, which contains public information that anyone can find on the internet.';
-  static const String appDeveloper = 'Dileepa Bandara';
+      'Hello there, I\'m Sivakumar Angusamy. This is my personal website, which contains public information that anyone can find on the internet.';
+  static const String appDeveloper = 'Sivakumar Angusamy';
   static const String appPackage = 'dev.dileepabandara.dileepabandara_dev';
   static const String appVersion = '1.1.2';
   static const String appBuildNumber = '1';
 
   // External links
   static Uri devURL = Uri.parse('https://dileepabandara.dev');
-  static Uri hashnodeURL = Uri.parse('https://hashnode.com/@dileepabandara');
   static Uri githubURL = Uri.parse('https://github.com/dileepabandara');
   static Uri linkedinURL = Uri.parse('https://linkedin.com/in/dileepabandara');
-  static Uri twitterURL = Uri.parse('https://twitter.com/_dileepabandara');
-  static Uri youtubeURL = Uri.parse('https://youtube.com/@flutterscope');
-  static Uri telegramURL = Uri.parse('https://t.me/dileepabandara');
   static Uri facebookURL = Uri.parse('https://facebook.com/0dileepabandara');
   static Uri instagramURL = Uri.parse('https://instagram.com/_dileepabandara');
   static Uri repoURL =
       Uri.parse('https://github.com/dileepabandara/dileepabandara.dev');
-  static Uri biographyURL = Uri.parse('https://biography.dileepabandara.dev');
-  static Uri profilesURL = Uri.parse('https://profile.dileepabandara.dev');
-  static Uri toolkitURL = Uri.parse('https://toolkit.dileepabandara.dev');
-  static Uri volunteeringURL =
-      Uri.parse('https://volunteer.dileepabandara.dev');
-  static Uri technotesURL = Uri.parse('https://techdiary.dileepabandara.dev');
-  static Uri lateNightStudentURL = Uri.parse('https://blog.dileepabandara.dev');
 
   // Header
   static const String headerGreetings = 'Hello, World! I\'m';
-  static const String headerName = 'Dileepa Bandara';
+  static const String headerName = 'Sivakumar Angusamy';
   static const String headerTitle = 'Student | Developer | Volunteer';
 
   // Navigation Bar
@@ -58,7 +47,7 @@ class DataValues {
   static const String aboutMeNwITitle = 'Name with Initials';
   static const String aboutMeNwIDescription = 'J.M. Dileepa Lakmal Bandara';
   static const String aboutMeFnLTitle = 'First and Last Name';
-  static const String aboutMeFnLDescription = 'Dileepa Bandara';
+  static const String aboutMeFnLDescription = 'Sivakumar Angusamy';
   static const String aboutMeDobTitle = 'Birthday';
   static const String aboutMeDobDescription = 'July 24, 1997';
   static const String aboutMeLanguageTitle = 'Languages';
@@ -137,7 +126,7 @@ class DataValues {
   static const String experienceTitle = 'Experience';
   static const String experienceDescription =
       'Since I started my diploma in 2019, I\'ve started to learn and apply my knowledge in different places. So I started working as a freelance solution developer, and with time, I fell in love with different technologies. I received industrial training in my second year, and now I try out my experience.';
-  static const String experienceOrg1Title = 'Dileepa Bandara';
+  static const String experienceOrg1Title = 'Sivakumar Angusamy';
   static const String experienceOrg1Role = 'Solution Developer';
   static const String experienceOrg1Years = 'June 2019 - June 2022';
   static const String experienceOrg1Vales =
@@ -198,7 +187,7 @@ class DataValues {
 
   // Footer
   static const String copyright =
-      "Copyright ©2023 Dileepa Bandara. All Rights Reserved.";
+      "Copyright ©2023 Sivakumar Angusamy. All Rights Reserved.";
 
   static const String builtWith = "Built with Flutter and GitHub Pages.";
 }
