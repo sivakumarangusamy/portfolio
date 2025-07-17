@@ -1,7 +1,7 @@
 class DataValues {
   // About App
   static const String appName = 'Sivakumar Angusamy';
-  static const String appNameLong = 'dileepabandara.dev';
+  static const String appNameLong = 'Flutter Developer';
   static const String appDescription =
       'Hello there, I\'m Sivakumar Angusamy. This is my personal website, which contains public information that anyone can find on the internet.';
   static const String appDeveloper = 'Sivakumar Angusamy';
@@ -11,8 +11,8 @@ class DataValues {
 
   // External links
   static Uri devURL = Uri.parse('https://dileepabandara.dev');
-  static Uri githubURL = Uri.parse('https://github.com/dileepabandara');
-  static Uri linkedinURL = Uri.parse('https://linkedin.com/in/dileepabandara');
+  static Uri githubURL = Uri.parse('https://github.com/sivakumarangusamy');
+  static Uri linkedinURL = Uri.parse('https://linkedin.com/in/sivakumar-angusamy');
   static Uri facebookURL = Uri.parse('https://facebook.com/0dileepabandara');
   static Uri instagramURL = Uri.parse('https://instagram.com/_dileepabandara');
   static Uri repoURL =
@@ -21,7 +21,7 @@ class DataValues {
   // Header
   static const String headerGreetings = 'Hello, World! I\'m';
   static const String headerName = 'Sivakumar Angusamy';
-  static const String headerTitle = 'Student | Developer | Volunteer';
+  static const String headerTitle = 'Mobile Application Developer';
 
   // Navigation Bar
   static const String navBarAboutMe = 'About Me';
@@ -43,32 +43,32 @@ class DataValues {
       'In addition to my studies, I\'m also passionate about giving back to various communities and helping others, which is why I volunteer my time to help out whenever I can, and I believe that this work is vital in helping to create a better future for everyone.';
   static const String aboutMeFullNameTitle = 'Full Name';
   static const String aboutMeFullNameDescription =
-      'Jayasundara Mudiyanselage Dileepa Lakmal Bandara';
+      'Sivakumar';
   static const String aboutMeNwITitle = 'Name with Initials';
-  static const String aboutMeNwIDescription = 'J.M. Dileepa Lakmal Bandara';
+  static const String aboutMeNwIDescription = 'A Sivakumar';
   static const String aboutMeFnLTitle = 'First and Last Name';
   static const String aboutMeFnLDescription = 'Sivakumar Angusamy';
   static const String aboutMeDobTitle = 'Birthday';
-  static const String aboutMeDobDescription = 'July 24, 1997';
+  static const String aboutMeDobDescription = 'August 12, 2000';
   static const String aboutMeLanguageTitle = 'Languages';
-  static const String aboutMeLanguageDescription = 'Sinhala (Native)\n'
+  static const String aboutMeLanguageDescription = 'Tamil (Native)\n'
       'English (Professional)';
   static const String aboutMeNationalityTitle = 'Nationality';
-  static const String aboutMeNationalityDescription = 'Sri Lankan';
+  static const String aboutMeNationalityDescription = 'Indian';
   static const String aboutMeGenderTitle = 'Gender';
   static const String aboutMeGenderDescription = 'Male (He/Him/His)';
   static const String aboutMeLocationTitle = 'Current Locations';
   static const String aboutMeLocationDescription =
-      'Kurunegala, Sri Lanka\nColombo, Sri Lanka';
+      'Chennai, TamilNadu\nMadurai, TamilNadu';
   static const String aboutMeWorkDomainTitle = 'Working Domain';
   static const String aboutMeWorkDomainDescription = 'dileepabandara.dev\n'
       '08:00 - 18:00 (GMT+5:30)';
-  static const String aboutMeStudentTitle = 'Computing Student';
+  static const String aboutMeStudentTitle = 'Networking IT Student';
   static const String aboutMeStudentDescription =
-      'I study computing technologies as a student by focusing on learning how computer systems work, from the physical (hardware) to the apps and programs (software) that users interact with, and I learn all about critical thinking, problem-solving, and analytical research, regardless of whether I apply all the computing principles to solve problems in scenarios.';
+      'I study Networking and Computer Science with a focus on understanding how computer systems and networks operate — from the underlying hardware and communication protocols to the software and services that enable data exchange and connectivity. I explore topics such as network architecture, cybersecurity, and distributed systems, while also developing strong skills in critical thinking, problem-solving, and analytical research. Whether or not I apply all theoretical principles in real-world scenarios, I continuously build a solid foundation in computing to address technical challenges effectively.';
   static const String aboutMeDeveloperTitle = 'Solution Developer';
   static const String aboutMeDeveloperDescription =
-      'I use various tools for creating and implementing innovative solutions to problems in order to accomplish particular goals. I employ a variety of techniques, including software development alongside app development, as well as design and develop structures such as UI/UX, graphics, data management, and other analytical methods with a focus on business points.';
+      'I use various tools to create and implement innovative solutions to problems in order to accomplish specific goals. My approach involves techniques such as software and app development, data management, and analytical methods — all aligned with achieving business objectives.';
   static const String aboutMeVolunteerTitle = 'Community Volunteer';
   static const String aboutMeVolunteerDescription =
       'I\'ve been a volunteer for many years and have had the opportunity to make a difference in my social and technical communities. Volunteering has allowed me to learn more about the people and things around me while also making a positive difference in the lives of those I serve, and by volunteering, I would love to help others reach their life goals.';
@@ -88,35 +88,32 @@ class DataValues {
   // Education
   static const String educationTitle = 'Education';
   static const String educationDescription =
-      'My educational background is not specific in any particular way and has come from various places. In this section, you can find out about my formal and other sources from 2003 to now. So, here are my school, undergraduate institution, and other learning platforms that I\'ve been involving for education.';
-  static const String educationOrg1Title =
-      'Maliyadeva Adarsha M.V. - Sri Lanka';
-  static const String educationOrg1Course1Name = 'GCE Advanced Level';
-  static const String educationOrg1Course1Grade =
-      'Combined Maths, Physics, and Chemistry';
-  static const String educationOrg1Course1Year = 'Attempted: 2016 & 2017';
-  static const String educationOrg1Course2Name = 'GCE Ordinary Level ';
-  static const String educationOrg1Course2Grade = 'Passed with 6A, 3B';
-  static const String educationOrg1Course2Year = '2013';
-  static const String educationOrg1Course3Name = 'Education Period';
-  static const String educationOrg1Course3Year = 'Secondary: 2008 - 2016';
-  static const String educationOrg1Course3Year2 = 'Primary: 2003 - 2007';
+      'My educational background is not specific in any particular way and has come from various places. In this section, you can find out about my formal and other sources from begin to now. So, here are my school, undergraduate institution, and other learning platforms that I\'ve been involving for education.';
 
-  static const String educationOrg2Title = 'NIBM - Sri Lanka';
-  static const String educationOrg2Course1Name = 'BSc (Hons) Computing';
-  static const String educationOrg2Course1Grade =
-      'awarded by Coventry University, UK';
-  static const String educationOrg2Course1Year = '2022 - Ongoing';
-  static const String educationOrg2Course2Name =
-      'Higher National Diploma in Software Engineering';
-  static const String educationOrg2Course2Grade =
-      'awarded by NIBM - Sri Lanka, 4.0 GPA';
-  static const String educationOrg2Course2Year = '2020 - 2021';
-  static const String educationOrg2Course3Name =
-      'Diploma in Computer System Design';
-  static const String educationOrg2Course3Grade =
-      'awarded by NIBM - Sri Lanka, 3.75 GPA';
-  static const String educationOrg2Course3Year = '2019 - 2020';
+  static const String educationOrg1Title = 'St. Britto School - Madurai';
+  static const String educationOrg1Course2Name = 'Education Type';
+  static const String educationOrg1Course2Grade = 'Secondary Education';
+  static const String educationOrg1Course2Year = 'Matriculation';
+  static const String educationOrg1Course3Name = 'Education Period';
+  static const String educationOrg1Course3Year = '2008 - 2016';
+  static const String educationOrg1Course3Year2 = '8 years';
+
+  static const String educationOrg2Title = 'St. John School - Madurai';
+  static const String educationOrg2Course2Name = 'Education Type';
+  static const String educationOrg2Course2Grade = 'Higher Education';
+  static const String educationOrg2Course2Year = 'Matriculation';
+  static const String educationOrg2Course3Name = 'Education Period';
+  static const String educationOrg2Course3Year = '2016 - 2018';
+  static const String educationOrg2Course3Year2 = '2 years';
+
+  static const String educationOrg3Title = 'SLCS College - Madurai';
+  static const String educationOrg3Course2Name = 'Education Type';
+  static const String educationOrg3Course2Grade = 'Bachelors Education';
+  static const String educationOrg3Course2Year = 'Madurai Kamaraj University';
+  static const String educationOrg3Course3Name = 'Education Period';
+  static const String educationOrg3Course3Year = '2018 - 2021';
+  static const String educationOrg3Course3Year2 = '3 years';
+
   static const String educationBanner = 'These Are Some Of My Other';
   static const String educationBannerTitle = 'Online Learning Platforms';
   static const String educationBannerWeb =
@@ -125,18 +122,18 @@ class DataValues {
   // Experience
   static const String experienceTitle = 'Experience';
   static const String experienceDescription =
-      'Since I started my diploma in 2019, I\'ve started to learn and apply my knowledge in different places. So I started working as a freelance solution developer, and with time, I fell in love with different technologies. I received industrial training in my second year, and now I try out my experience.';
-  static const String experienceOrg1Title = 'Sivakumar Angusamy';
-  static const String experienceOrg1Role = 'Solution Developer';
-  static const String experienceOrg1Years = 'June 2019 - June 2022';
+      'Since I started my bachelore in 2018, I\'ve started to learn and apply my knowledge in different places.';
+  static const String experienceOrg1Title = 'Tata Consultancy Services';
+  static const String experienceOrg1Role = 'Network Engineer';
+  static const String experienceOrg1Years = 'Dec 2021 - Dec 2023';
   static const String experienceOrg1Vales =
-      'Mobile, Desktop, Web development, UI UX, Tech Support Assistant & Data Analysis.';
-  static const String experienceOrg2Title = 'DDS Techvira';
+      'Network Configuration, System Administration, Technical Support.';
+  static const String experienceOrg2Title = 'Wizinoa';
   static const String experienceOrg2Role =
-      'Trainee Software Developer (Flutter)';
-  static const String experienceOrg2Years = 'May 2021 - November 2021';
+      'Junior Software Developer (Flutter)';
+  static const String experienceOrg2Years = 'Nov 2024 - June 2025';
   static const String experienceOrg2Vales =
-      'Android, Flutter, Dart, Firebase, Git, REST API, JSON Parsing & UI UX Designing.';
+      'Android, IOS, Flutter, Dart, Firebase, Git, REST API, JSON Parsing.';
   static const String experienceBanner = 'Find my working';
   static const String experienceBannerTitle = 'toolkit';
   static const String experienceBannerWeb =
@@ -183,7 +180,7 @@ class DataValues {
   static const String contactDescription =
       'Hey! I appreciate you looking at my public profile. Please feel free to ask me anything or to discuss anything with me. I\'m happy to chat with and meet new people. Regardless of the fact that I don\'t use social media much, you can find me there. So find me and get in touch with me. Send me an email if you need to discuss anything serious with me. I\'ll get back to you in 12 to 24 hours.';
   static const String contactBanner = 'Send me an email at';
-  static const String contactEmail = 'contact@dileepabandara.dev';
+  static const String contactEmail = 'sivakumarangusamy@gmail.com';
 
   // Footer
   static const String copyright =

@@ -133,7 +133,7 @@ class MS2AboutMe extends StatelessWidget {
             bio(context),
             const SizedBox(height: 40.0),
             titles(context),
-            const SizedBox(height: 80.0),
+            const SizedBox(height: 20.0),
           ],
         ),
       ),

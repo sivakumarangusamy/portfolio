@@ -25,7 +25,7 @@ class MS4Experience extends StatelessWidget {
                 description: DataValues.experienceDescription),
             const SizedBox(height: 30.0),
             ContainerCard().type3(
-              image: 'dileepabandara_dev',
+              image: 'tcs',
               title: DataValues.experienceOrg1Title,
               role: DataValues.experienceOrg1Role,
               years: DataValues.experienceOrg1Years,
@@ -36,7 +36,7 @@ class MS4Experience extends StatelessWidget {
             ),
             const SizedBox(height: 20.0),
             ContainerCard().type3(
-              image: 'ddstechvira',
+              image: 'wizinoa',
               title: DataValues.experienceOrg2Title,
               role: DataValues.experienceOrg2Role,
               years: DataValues.experienceOrg2Years,
