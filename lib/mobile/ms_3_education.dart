@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../statics/data_values.dart';
 import '../statics/key_holders.dart';
 import '../theme/app_theme.dart';
@@ -19,7 +18,6 @@ class MS3Education extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const SizedBox(height: 30.0),
             const FrameTitle(
                 title: DataValues.educationTitle,
                 description: DataValues.educationDescription),

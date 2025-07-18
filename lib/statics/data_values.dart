@@ -10,13 +10,13 @@ class DataValues {
   static const String appBuildNumber = '1';
 
   // External links
-  static Uri devURL = Uri.parse('https://dileepabandara.dev');
+  static Uri devURL = Uri.parse('https://sivakumarangusamy.github.io/portfolio/');
   static Uri githubURL = Uri.parse('https://github.com/sivakumarangusamy');
   static Uri linkedinURL = Uri.parse('https://linkedin.com/in/sivakumar-angusamy');
-  static Uri facebookURL = Uri.parse('https://facebook.com/0dileepabandara');
-  static Uri instagramURL = Uri.parse('https://instagram.com/_dileepabandara');
+  static Uri facebookURL = Uri.parse('https://www.facebook.com/sivakumar.a.98871');
+  static Uri instagramURL = Uri.parse('https://www.instagram.com/sivakumar.angusamy/');
   static Uri repoURL =
-      Uri.parse('https://github.com/dileepabandara/dileepabandara.dev');
+      Uri.parse('https://github.com/sivakumarangusamy/portfolio');
 
   // Header
   static const String headerGreetings = 'Hello, World! I\'m';
